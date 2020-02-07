@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/logo.png" type="image/png">
+        <title>Contacts</title>
+		
+		<!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+		
+		<!-- main css -->
+        <link rel="stylesheet" href="css/contacts.css">
+		<link rel="stylesheet" href="css/responsive.css">
+
+		<!-- JQuery CDN -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+    </head>
+    <body data-spy="scroll" data-target="#mainNav" data-offset="70">
+        
+        <!--================Header Menu Area =================-->
+        <header class="header_area">
+            <div class="main_menu" id="mainNav">
+            	<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container box_1620">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<a class="navbar-brand" href="index.html"><img src="https://dl.dropboxusercontent.com/s/j9yld8fgdi3yqi2/logo.png?dl=0" class="logo" alt=""></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav ml-auto">
+								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
+								<li class="nav-item"><a class="nav-link" href="services.html">Services</a>
+									<li class="nav-item"><a class="nav-link" href="#contacts">Contact</a></li>
+									<li class="nav-item"><a class="nav-link" href="about.html">About</a></li> 
+							</ul>
+						</div> 
+					</div>
+            	</nav>
+            </div>
+        </header>
+		<!--================Header Menu Area =================-->
+		
+        <!--================Home Banner Area =================-->
+        <section class="home_banner_area" id="home">
+            <div class="banner_inner">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<p class="text-uppercase text-white h2 text-center">contact us</p>
+							<hr class="w-25">
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+        </section>
+		<!--================End Home Banner Area =================-->
+		
+		
+		<!--Section: Contact v.2-->
+
+		<section class="mb-5">
+			<!--Section heading-->
+			<h2 class="h1-responsive font-weight-bold text-center my-4">MBC Studio</h2>
+			<!--Section description-->
+			<p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+				a matter of hours to help you.</p>
+
+			<div class="container">
+				<div class="row">
+
+					<!--Grid column-->
+					<div class="col-md-9 mb-md-0 mb-5">
+						<form id="contact-form" name="contact-form" action="mail.php" method="POST">
+			
+							<!--Grid row-->
+							<div class="row">
+			
+								<!--Grid column-->
+								<div class="col-md-6">
+									<div class="md-form mb-0">
+										<input type="text" id="name" name="name" class="form-control">
+										<label for="name" class="">Your name</label>
+									</div>
+								</div>
+								<!--Grid column-->
+			
+								<!--Grid column-->
+								<div class="col-md-6">
+									<div class="md-form mb-0">
+										<input type="text" id="email" name="email" class="form-control">
+										<label for="email" class="">Your email</label>
+									</div>
+								</div>
+								<!--Grid column-->
+			
+							</div>
+							<!--Grid row-->
+			
+							<!--Grid row-->
+							<div class="row">
+								<div class="col-md-12">
+									<div class="md-form mb-0">
+										<input type="text" id="subject" name="subject" class="form-control">
+										<label for="subject" class="">Subject</label>
+									</div>
+								</div>
+							</div>
+							<!--Grid row-->
+			
+							<!--Grid row-->
+							<div class="row">
+			
+								<!--Grid column-->
+								<div class="col-md-12">
+			
+									<div class="md-form">
+										<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+										<label for="message">Your message</label>
+									</div>
+			
+								</div>
+							</div>
+							<!--Grid row-->
+			
+						</form>
+			
+						<div class="text-center text-md-left text-white">
+							<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+						</div>
+						<div class="status"></div>
+					</div>
+					<!--Grid column-->
+			
+					<!--Grid column-->
+					<div class="col-md-3 text-center">
+						<ul class="list-unstyled mb-0">
+							<li><i class="fas fa-map-marker-alt fa-2x"></i>
+								<p>56 Durban Road, Cape Town SA</p>
+							</li>
+			
+							<li><i class="fas fa-phone mt-4 fa-2x"></i>
+								<p>+27 78 391 4273</p>
+							</li>
+			
+							<li><i class="fas fa-envelope mt-4 fa-2x"></i>
+								<p>mbcstudioshop@gmail.com</p>
+							</li>
+						</ul>
+						<div class="iframe-container">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d828.117407914987!2d18.63553532920707!3d-33.87755688536442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc50beb200da89%3A0x238164662cbdc4f1!2s56%20Durban%20Rd%2C%20Bellville%20Park%2C%20Cape%20Town%2C%207530!5e0!3m2!1sen!2sza!4v1580381692905!5m2!1sen!2sza" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+						</div>
+					</div>
+					<!--Grid column-->
+			
+				</div>
+			</div>
+
+		</section>
+<!--Section: Contact v.2-->
+		
+<!--================Footer Area =================-->
+<footer class="footer_area p_120">
+	<div class="container">
+		<div class="row footer_inner">
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<h1>About</h1>
+				<p>We ara a Multimedia and <br>Video Production Company</p>
+				<p>Fiston Morton Director</p>
+				<div>
+					<img src="https://dl.dropboxusercontent.com/s/j9yld8fgdi3yqi2/logo.png?dl=0" alt="" class="footer_logo">
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<h1>Contact</h1>
+				<p>MBC Studio office at this <a href="https://www.google.co.za/maps/place/56+Durban+Rd,+Bellville+Park,+Cape+Town,+7530/@-33.8775569,18.6355353,19z/data=!3m1!4b1!4m5!3m4!1s0x1dcc50beb200da89:0x238164662cbdc4f1!8m2!3d-33.877558!4d18.6360825">address</a>
+				<br>Office Number +27 78 391 4273 <br> email.: <a href="mailto:mbcstudioshop@gmail.com">mbcstudioshop@gmail.com</a>
+				</p>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<h1>Services</h1>
+				<p>Graphic Design <br>Video-Photo Shooting <br>Printing</p>
+				<p>Check <a href="services.html">Services</a> page to see more</p>
+				<div class="col">    
+					<a href="https://www.facebook.com/MBC-Studio-PTY-LTD-111212393679119/"><i class="fab fa-facebook fa-2x"></i></a>
+					<a href="https://www.youtube.com/user/maxiparade" style="margin-left: 10px;"><i class="fab fa-youtube fa-2x"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="copy_right_text">
+			<p class="text-center">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</p>
+		</div>
+	</div>
+</footer>
+        <!--================End Footer Area =================-->
+        
+        
+        
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+     	https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-analytics.js"></script>
+
+	<script>
+	// Your web app's Firebase configuration
+	var firebaseConfig = {
+		apiKey: "AIzaSyCkIIbVqYJk7yexlGNzQHrmAylwGvFTf5o",
+		authDomain: "mbc-studio.firebaseapp.com",
+		databaseURL: "https://mbc-studio.firebaseio.com",
+		projectId: "mbc-studio",
+		storageBucket: "mbc-studio.appspot.com",
+		messagingSenderId: "367194161037",
+		appId: "1:367194161037:web:fca99e12b8583929a907c4",
+		measurementId: "G-TWRP2F41YJ"
+	};
+	// Initialize Firebase
+	firebase.initializeApp(firebaseConfig);
+	firebase.analytics();
+	</script>
+    </body>
+</html>
